@@ -1,0 +1,209 @@
+INFO:__main__:Starting
+INFO:__main__:loadData - data/Online_Retail_Data_Set.csv starting
+INFO:__main__:loadData - first rows:
+  InvoiceNo StockCode                          Description  ...  UnitPrice CustomerID         Country
+0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER  ...       2.55    17850.0  United Kingdom
+1    536365     71053                  WHITE METAL LANTERN  ...       3.39    17850.0  United Kingdom
+2    536365    84406B       CREAM CUPID HEARTS COAT HANGER  ...       2.75    17850.0  United Kingdom
+3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE  ...       3.39    17850.0  United Kingdom
+4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.  ...       3.39    17850.0  United Kingdom
+
+[5 rows x 8 columns]
+INFO:__main__:loadData - columns info:
+InvoiceNo       object
+StockCode       object
+Description     object
+Quantity         int64
+InvoiceDate     object
+UnitPrice      float64
+CustomerID     float64
+Country         object
+dtype: object
+INFO:__main__:loadData - finished
+INFO:__main__:cleanData - starting
+INFO:__main__:cleanData - Removing 10624 rows with 0 or negative quantity
+INFO:__main__:cleanData - Removing 1181 rows with 0 or negative unit price
+INFO:__main__:cleanData - Removing 132220 rows with invalid value for CustomerID column
+INFO:__main__:cleanData - Removing 5195 duplicated rows according to uniqueness ['InvoiceNo', 'StockCode', 'Quantity', 'UnitPrice', 'CustomerID']
+INFO:__main__:cleanData - finished
+INFO:__main__:transformData - converting column InvoiceNo from object to float64
+INFO:__main__:transformData - converting column StockCode from object to string
+INFO:__main__:transformData - converting column Description from object to string
+INFO:__main__:transformData - converting column Quantity from int64 to float64
+INFO:__main__:transformData - converting column InvoiceDate from object to datetime
+INFO:__main__:transformData - converting column Country from object to string
+INFO:__main__:Finished
+INFO:__main__:Starting
+INFO:__main__:loadData - data/Online_Retail_Data_Set.csv starting
+INFO:__main__:loadData - first rows:
+  InvoiceNo StockCode                          Description  ...  UnitPrice CustomerID         Country
+0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER  ...       2.55    17850.0  United Kingdom
+1    536365     71053                  WHITE METAL LANTERN  ...       3.39    17850.0  United Kingdom
+2    536365    84406B       CREAM CUPID HEARTS COAT HANGER  ...       2.75    17850.0  United Kingdom
+3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE  ...       3.39    17850.0  United Kingdom
+4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.  ...       3.39    17850.0  United Kingdom
+
+[5 rows x 8 columns]
+INFO:__main__:loadData - columns info:
+InvoiceNo       object
+StockCode       object
+Description     object
+Quantity         int64
+InvoiceDate     object
+UnitPrice      float64
+CustomerID     float64
+Country         object
+dtype: object
+INFO:__main__:loadData - finished
+INFO:__main__:cleanData - starting
+INFO:__main__:cleanData - Removing 10624 rows with 0 or negative quantity
+INFO:__main__:cleanData - Removing 1181 rows with 0 or negative unit price
+INFO:__main__:cleanData - Removing 132220 rows with invalid value for CustomerID column
+INFO:__main__:cleanData - Removing 5195 duplicated rows according to uniqueness ['InvoiceNo', 'StockCode', 'Quantity', 'UnitPrice', 'CustomerID']
+INFO:__main__:cleanData - finished
+INFO:__main__:transformData - converting column InvoiceNo from object to float64
+INFO:__main__:transformData - converting column StockCode from object to string
+INFO:__main__:transformData - converting column Description from object to string
+INFO:__main__:transformData - converting column Quantity from int64 to float64
+INFO:__main__:transformData - converting column InvoiceDate from object to datetime
+INFO:__main__:transformData - converting column Country from object to string
+INFO:__main__:Finished
+INFO:__main__:Starting
+INFO:__main__:loadData - data/Online_Retail_Data_Set.csv starting
+INFO:__main__:loadData - first rows:
+  InvoiceNo StockCode                          Description  ...  UnitPrice CustomerID         Country
+0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER  ...       2.55    17850.0  United Kingdom
+1    536365     71053                  WHITE METAL LANTERN  ...       3.39    17850.0  United Kingdom
+2    536365    84406B       CREAM CUPID HEARTS COAT HANGER  ...       2.75    17850.0  United Kingdom
+3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE  ...       3.39    17850.0  United Kingdom
+4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.  ...       3.39    17850.0  United Kingdom
+
+[5 rows x 8 columns]
+INFO:__main__:loadData - columns info:
+InvoiceNo       object
+StockCode       object
+Description     object
+Quantity         int64
+InvoiceDate     object
+UnitPrice      float64
+CustomerID     float64
+Country         object
+dtype: object
+INFO:__main__:loadData - finished
+INFO:__main__:cleanData - starting
+INFO:__main__:cleanData - Removing 10624 rows with 0 or negative quantity
+INFO:__main__:cleanData - Removing 1181 rows with 0 or negative unit price
+INFO:__main__:cleanData - Removing 132220 rows with invalid value for CustomerID column
+INFO:__main__:cleanData - Removing 5195 duplicated rows according to uniqueness ['InvoiceNo', 'StockCode', 'Quantity', 'UnitPrice', 'CustomerID']
+INFO:__main__:cleanData - finished
+INFO:__main__:transformData - converting column InvoiceNo from object to float64
+INFO:__main__:transformData - converting column StockCode from object to string
+INFO:__main__:transformData - converting column Description from object to string
+INFO:__main__:transformData - converting column Quantity from int64 to float64
+INFO:__main__:transformData - converting column InvoiceDate from object to datetime
+INFO:__main__:transformData - converting column Country from object to string
+INFO:__main__:transformData - converting column InvoiceNo from object to float64
+INFO:__main__:Starting
+INFO:__main__:loadData - data/Online_Retail_Data_Set.csv starting
+INFO:__main__:loadData - first rows:
+  InvoiceNo StockCode                          Description  ...  UnitPrice CustomerID         Country
+0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER  ...       2.55    17850.0  United Kingdom
+1    536365     71053                  WHITE METAL LANTERN  ...       3.39    17850.0  United Kingdom
+2    536365    84406B       CREAM CUPID HEARTS COAT HANGER  ...       2.75    17850.0  United Kingdom
+3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE  ...       3.39    17850.0  United Kingdom
+4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.  ...       3.39    17850.0  United Kingdom
+
+[5 rows x 8 columns]
+INFO:__main__:loadData - columns info:
+InvoiceNo       object
+StockCode       object
+Description     object
+Quantity         int64
+InvoiceDate     object
+UnitPrice      float64
+CustomerID     float64
+Country         object
+dtype: object
+INFO:__main__:loadData - finished
+INFO:__main__:cleanData - starting
+INFO:__main__:cleanData - Removing 10624 rows with 0 or negative quantity
+INFO:__main__:cleanData - Removing 1181 rows with 0 or negative unit price
+INFO:__main__:cleanData - Removing 132220 rows with invalid value for CustomerID column
+INFO:__main__:cleanData - Removing 5195 duplicated rows according to uniqueness ['InvoiceNo', 'StockCode', 'Quantity', 'UnitPrice', 'CustomerID']
+INFO:__main__:cleanData - finished
+INFO:__main__:transformData - converting column InvoiceNo from object to float64
+INFO:__main__:transformData - converting column StockCode from object to string
+INFO:__main__:transformData - converting column Description from object to string
+INFO:__main__:transformData - converting column Quantity from int64 to float64
+INFO:__main__:transformData - converting column InvoiceDate from object to datetime
+INFO:__main__:transformData - converting column Country from object to string
+INFO:__main__:Starting
+INFO:__main__:loadData - data/Online_Retail_Data_Set.csv starting
+INFO:__main__:loadData - first rows:
+  InvoiceNo StockCode                          Description  ...  UnitPrice CustomerID         Country
+0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER  ...       2.55    17850.0  United Kingdom
+1    536365     71053                  WHITE METAL LANTERN  ...       3.39    17850.0  United Kingdom
+2    536365    84406B       CREAM CUPID HEARTS COAT HANGER  ...       2.75    17850.0  United Kingdom
+3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE  ...       3.39    17850.0  United Kingdom
+4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.  ...       3.39    17850.0  United Kingdom
+
+[5 rows x 8 columns]
+INFO:__main__:loadData - columns info:
+InvoiceNo       object
+StockCode       object
+Description     object
+Quantity         int64
+InvoiceDate     object
+UnitPrice      float64
+CustomerID     float64
+Country         object
+dtype: object
+INFO:__main__:loadData - finished
+INFO:__main__:cleanData - starting
+INFO:__main__:cleanData - Removing 10624 rows with 0 or negative quantity
+INFO:__main__:cleanData - Removing 1181 rows with 0 or negative unit price
+INFO:__main__:cleanData - Removing 132220 rows with invalid value for CustomerID column
+INFO:__main__:cleanData - Removing 5195 duplicated rows according to uniqueness ['InvoiceNo', 'StockCode', 'Quantity', 'UnitPrice', 'CustomerID']
+INFO:__main__:cleanData - finished
+INFO:__main__:transformData - converting column InvoiceNo from object to float64
+INFO:__main__:transformData - converting column StockCode from object to string
+INFO:__main__:transformData - converting column Description from object to string
+INFO:__main__:transformData - converting column Quantity from int64 to float64
+INFO:__main__:transformData - converting column InvoiceDate from object to datetime
+INFO:__main__:transformData - converting column Country from object to string
+INFO:__main__:Finished
+INFO:__main__:Starting
+INFO:__main__:loadData - Online_Retail_Data_Set.csv starting
+INFO:__main__:loadData - first rows:
+  InvoiceNo StockCode                          Description  ...  UnitPrice CustomerID         Country
+0    536365    85123A   WHITE HANGING HEART T-LIGHT HOLDER  ...       2.55    17850.0  United Kingdom
+1    536365     71053                  WHITE METAL LANTERN  ...       3.39    17850.0  United Kingdom
+2    536365    84406B       CREAM CUPID HEARTS COAT HANGER  ...       2.75    17850.0  United Kingdom
+3    536365    84029G  KNITTED UNION FLAG HOT WATER BOTTLE  ...       3.39    17850.0  United Kingdom
+4    536365    84029E       RED WOOLLY HOTTIE WHITE HEART.  ...       3.39    17850.0  United Kingdom
+
+[5 rows x 8 columns]
+INFO:__main__:loadData - columns info:
+InvoiceNo       object
+StockCode       object
+Description     object
+Quantity         int64
+InvoiceDate     object
+UnitPrice      float64
+CustomerID     float64
+Country         object
+dtype: object
+INFO:__main__:loadData - finished
+INFO:__main__:cleanData - starting
+INFO:__main__:cleanData - Removing 10624 rows with 0 or negative quantity
+INFO:__main__:cleanData - Removing 1181 rows with 0 or negative unit price
+INFO:__main__:cleanData - Removing 132220 rows with invalid value for CustomerID column
+INFO:__main__:cleanData - Removing 5195 duplicated rows according to uniqueness ['InvoiceNo', 'StockCode', 'Quantity', 'UnitPrice', 'CustomerID']
+INFO:__main__:cleanData - finished
+INFO:__main__:transformData - converting column InvoiceNo from object to float64
+INFO:__main__:transformData - converting column StockCode from object to string
+INFO:__main__:transformData - converting column Description from object to string
+INFO:__main__:transformData - converting column Quantity from int64 to float64
+INFO:__main__:transformData - converting column InvoiceDate from object to datetime
+INFO:__main__:transformData - converting column Country from object to string
+INFO:__main__:Finished
